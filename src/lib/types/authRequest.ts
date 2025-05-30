@@ -1,6 +1,6 @@
-import { Request , Response , NextFunction } from "express";
+import { Request } from "express";
 
 
 export interface authRequest extends Request{
-user:string
+user?:string
 }
